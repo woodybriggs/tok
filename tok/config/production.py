@@ -28,5 +28,5 @@ class Production(Common):
     # Response can be cached by browser and any intermediary caches (i.e. it is "public") for up to 1 day
     # 86400 = (60 seconds x 60 minutes x 24 hours)
     AWS_HEADERS = {
-        'Cache-Control': 'max-age=86400, s-maxage=86400, must-revalidate',
+        'Cache-Control': 'max-age=86400, s-maxage=86400, must-revalidate'
     }
